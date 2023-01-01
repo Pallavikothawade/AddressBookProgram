@@ -103,5 +103,24 @@ namespace ProgramAddressBook
 
             }
         }
+        public void Remove()//UC4
+        {
+            Console.WriteLine("Enter to first name to delete");
+            string first_Name = Console.ReadLine();
+
+            foreach (var data in add)
+            {
+                if (data.FirstName == first_Name)
+                {
+                    add.Remove(data);
+                    Console.WriteLine("Sucessfully removed");
+
+                }
+                else
+                {
+                    Console.WriteLine("Contact Not Present");
+                }
+            }
+        }
     }
 }

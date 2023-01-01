@@ -12,8 +12,9 @@ namespace ProgramAddressBook
         {
             AddressBook addressBook1 = new AddressBook();
             addressBook1.Addbook();
-            addressBook1.Display();
-            addressBook1.UpdateList();
+           // addressBook1.Display();
+           // addressBook1.UpdateList();
+            addressBook1.Remove();
              Console.ReadLine();
         }
     }

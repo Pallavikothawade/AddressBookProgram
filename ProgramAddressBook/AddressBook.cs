@@ -31,7 +31,7 @@ namespace ProgramAddressBook
             add.Add(contacts1);
 
         }
-        public void Display()
+        public void Display()//UC2
         {
             foreach (Contacts data in add)
             {

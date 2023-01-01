@@ -15,5 +15,7 @@ namespace ProgramAddressBook
         public string State { get; set; }
         public long ZipCode { get; set; }
         public long MobNo { get; set; }
+
+        public string Email { get; set; }
     }
 }
